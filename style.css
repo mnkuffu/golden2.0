@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Roboto+Slab&family=Ubuntu:wght@300&display=swap');
+:root{ 
+    --text1-color:#FED136; 
+    --text2-color: #222222; 
+    --text3-color:#777777; 
+    --text4-color:#FFFFFF; 
+    --text5-color:#BBBBBB; 
+} 
+body {
+    font-family: "Montserrat";
+
+}
+.card-text { 
+    font-family: "Roboto Slab";
+    color: var(--text3-color); 
+}
+.header-menu {
+    color: var(--text1-color);
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.card-title{ 
+    color: var(--text2-color); 
+} 
+.card-img{ 
+    width: 66px; 
+    height: 66px; 
+} 
+.header-logo{ 
+    color: var(--text1-color); 
+    font-family: "Bilbo Swash Caps"; 
+} 
+.header-link{ 
+    color: var(--text1-color); 
+    text-decoration: none; 
+} 
+.services-title{ 
+    color: var(--text2-color); 
+} 
+.services-card{ 
+    color: var(--text3-color); 
+} 
+.from-title{ 
+    color: var(--text4-color); 
+} 
+.from-input{ 
+    color: var(--text5-color); 
+} 
+.form-button{ 
+    color: var(--text4-color); 
+}
